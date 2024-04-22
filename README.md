@@ -17,3 +17,27 @@ The project makes use of two public datasets:
 Before running the project, install the required Python libraries using the following command:
 ```bash
 pip install pandas numpy nltk scikit-learn matplotlib seaborn
+
+## Additional Setup
+Ensure you the necessary NLTK are downloaded :
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
+## Usage
+
+1. Clone the repository:
+git clone https://github.com/RifiBadr/fake-news-detection-tool.git
+
+2. Navigate to the project directory:
+cd fake-news-detection-tool
+
+3. Install required Python libraries (if not previously installed):
+pip install pandas numpy nltk scikit-learn matplotlib seaborn
+
+4. Execute the Jupyter Notebook:
+python FakeNewsDetectionTool.ipynb
+
+
+
