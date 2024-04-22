@@ -15,7 +15,7 @@ The project makes use of two public datasets:
 
 ## Dependencies
 Before running the project, install the required Python libraries using the following command:
-```bash
+
 pip install pandas numpy nltk scikit-learn matplotlib seaborn
 
 ## Additional Setup
@@ -38,6 +38,6 @@ pip install pandas numpy nltk scikit-learn matplotlib seaborn
 
 4. Execute the Jupyter Notebook:
 python FakeNewsDetectionTool.ipynb
-
+```bash
 
 
