@@ -31,13 +31,13 @@ nltk.download('omw-1.4')
 git clone https://github.com/RifiBadr/fake-news-detection-tool.git
 
 2. Navigate to the project directory:
-cd main
+cd fake-news-detection-tool
 
 3. Install required Python libraries (if not previously installed):
 pip install pandas numpy nltk scikit-learn matplotlib seaborn
 
 4. Execute the Jupyter Notebook:
-python FakeNewsDetectionTool.ipynb
+python main
 ```bash
 
 
