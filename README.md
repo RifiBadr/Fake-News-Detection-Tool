@@ -37,7 +37,7 @@ cd fake-news-detection-tool
 pip install pandas numpy nltk scikit-learn matplotlib seaborn
 
 4. Execute the Jupyter Notebook:
-python FakeNewsDetectionTool.ipynb
+python main
 ```bash
 
 
