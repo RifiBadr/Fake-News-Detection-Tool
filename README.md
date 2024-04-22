@@ -1,2 +1,19 @@
-# Fake-News-Detection-Tool
-Fake News Detection (Final Year Project)
+# Fake News Detection Tool
+
+## Project Overview
+The Fake News Detection Tool is designed to identify and classify news articles as real or fake. Utilizing advanced machine learning techniques, the tool processes and analyzes textual data to determine its veracity. The project leverages popular Python libraries and machine learning models, including Logistic Regression, Decision Tree, and Random Forest classifiers.
+
+## Datasets Used
+The project makes use of two public datasets:
+- **FakeNewsNet (PolitiFact)**: Contains labeled news articles as real or fake.
+- **LIAR Dataset**: Consists of short statements rated on a truthfulness scale, used for binary classification.
+- Datasets can be downloaded from the [Fake News Inference Dataset](https://ieee-dataport.org/open-access/fnid-fake-news-inference-dataset) on IEEE Dataport.
+
+## System Requirements
+- **Operating System**: Compatible with Windows, macOS, and Linux.
+- **Python Version**: Python 3.8 or later.
+
+## Dependencies
+Before running the project, install the required Python libraries using the following command:
+```bash
+pip install pandas numpy nltk scikit-learn matplotlib seaborn
